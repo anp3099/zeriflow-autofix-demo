@@ -4,7 +4,7 @@
 
 function runDemoExpression(userInput) {
   // Intentional demo finding: evaluating user-controlled input is unsafe.
-  return eval(userInput);
+  return JSON.parse(userInput);
 }
 
 function renderDemoHtml(userInput) {
